@@ -1,0 +1,20 @@
+$font-primary: "open sans", sans-serif;
+$font-headings: "Archivo Narrow", sans-serif;
+
+
+
+$colours: (
+    primary: #E5E5E5,
+    light: #F4F3EE,
+    white: #FFFFFF,
+    accent: #C32C72,
+    logo: #262626,
+    text: #463F3A,
+    light-grey: #E2E2E2,
+    grey: #8D8D8D, 
+    dark-grey: #6A6A6A,
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

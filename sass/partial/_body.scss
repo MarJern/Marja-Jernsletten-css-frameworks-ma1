@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "open sans", sans-serif;
+    background-color: $background-colour;
+    color: $text-colour;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: $primary;
+    margin-top: 20px;
+    font-size: 0.8em;
+    padding: 10px;
+    height: 40px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    flex: 1 0 auto;
+}

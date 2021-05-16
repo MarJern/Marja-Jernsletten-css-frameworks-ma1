@@ -1,0 +1,22 @@
+.box__element {
+    padding: 10px;
+    }
+    
+    .card {
+        width: 250px;
+        height: 250px;
+        background-color: $primary;
+        border: none;
+        border-radius: 15px;
+        
+    }
+    
+    .box__element__square--white {
+        border: 2px solid $accent-colour;
+        background-color: $white-colour;
+    }
+    
+    .box__element__square--pink {
+        border: 2px solid $white-colour;
+        background-color: $accent-colour;
+    }

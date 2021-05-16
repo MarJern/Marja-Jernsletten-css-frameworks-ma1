@@ -1,0 +1,21 @@
+h1 {
+    color: $logo-colour;
+}
+
+.navbar__link--logo {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+a {
+    color: $grey-colour !important;
+    text-decoration: none;
+}
+
+.nav__link--accent{
+    color: $accent-colour !important;
+}
+
+.navbar__menu--item {
+    font-family: "Archivo Narrow", sans-serif;
+}

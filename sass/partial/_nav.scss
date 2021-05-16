@@ -1,0 +1,19 @@
+.navbar {
+    padding: 0 20px;
+    background-color: $primary;
+    text-transform: uppercase;
+}
+
+.collapse {
+    z-index: 1;
+    background-color: $primary;
+    width: 100% !important;
+    margin: 0;
+    padding-left: 40px;
+}
+
+.navbar__menu--item {
+    @media (min-width: $tablet-width) {
+        padding-left: 140%;
+    }
+}
